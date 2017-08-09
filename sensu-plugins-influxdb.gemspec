@@ -1,8 +1,6 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'sensu-plugins-influxdb/version'
-
 Gem::Specification.new do |s|
   s.authors                = ['Sensu-Plugins and contributors']
   s.description            = 'This plugin provides native InfluxDB instrumentation
@@ -26,7 +24,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version  = '>= 2.0.0'
   s.summary                = 'Sensu plugins for influxdb'
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
-  s.version                = SensuPluginsInfluxdb::VERSION
+  s.version                = '1.2.0'
 
   s.add_dependency 'sensu-extension'
 

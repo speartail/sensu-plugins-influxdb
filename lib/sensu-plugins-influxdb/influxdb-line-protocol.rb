@@ -1,1 +1,0 @@
-../../bin/mutator-influxdb-line-protocol.rb
