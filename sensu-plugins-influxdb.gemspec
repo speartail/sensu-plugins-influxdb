@@ -1,12 +1,10 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'date'
-# require_relative 'lib/sensu-plugins-influxdb'
+require 'sensu-plugins-influxdb/version'
 
 Gem::Specification.new do |s|
   s.authors                = ['Sensu-Plugins and contributors']
-  s.date                   = Date.today.to_s
   s.description            = 'This plugin provides native InfluxDB instrumentation
                               for monitoring and metrics collection, including:
                               service health via `/ping`, running queries, and service
