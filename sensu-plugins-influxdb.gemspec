@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version  = '>= 2.0.0'
   s.summary                = 'Sensu plugins for influxdb'
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
-  s.version                = SensuPluginsInfluxdb::Version::VER_STRING
+  s.version                = SensuPluginsInfluxdb::VERSION
 
   s.add_dependency 'sensu-extension'
 
